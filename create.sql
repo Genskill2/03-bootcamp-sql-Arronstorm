@@ -13,6 +13,6 @@ CREATE TABLE subjects(
     name text
 );
 CREATE TABLE books_subjects(
-    books integer,
-    subjects integer
+    book integer,
+    subject integer
 );
