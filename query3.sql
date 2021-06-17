@@ -1,5 +1,5 @@
 select books.title
-from book
+from books
 inner join books_subjects
 on books.id = books_subjects.book
 inner join subject
